@@ -52,7 +52,16 @@ picture {
 /* **** ----- Reset: END ----- **** */
 
 /* ----- Main Styles ----- */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center
 
+}
+.stats {
+    display: flex;
+    justify-content: center;
+}
 
 /* ----- Footer Styles ----- */
 .attribution { font-size: 11px; text-align: center; }
