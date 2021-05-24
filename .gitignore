@@ -1,5 +1,7 @@
 # mac desktop files
 .DS_Store
 .prettierignore
+#####
+**/.vscode/
 ##### reomove when done
 instructions.md

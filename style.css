@@ -1,0 +1,61 @@
+:root {
+    --dark-cyan: hsl(185, 75%, 39%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    --dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-gray: hsl(0, 0%, 59%);
+    --font-kumba-sans: 'Kumbh Sans', sans-serif;
+    --body-text: 15px;
+    --font-size-main: font-size: 18px;
+    --fontWt-med: 400;
+    --fontWt-bold: 700;
+}
+
+/* ************** --------------- Resets ---------------- ************** */
+/* ----- Reset: Box sizing ----- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* ----- Reset: Remove default margins ----- */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+/* ----- Reset: Make fluid images easier to work with ----- */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+  }
+/* ----- Reset: Accesibility: Allows animation/transition motion for those affected by it ----- */  
+@media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}  
+/* **** ----- Reset: END ----- **** */
+
+/* ----- Main Styles ----- */
+
+
+/* ----- Footer Styles ----- */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/* ----- Media Queries ----- */
